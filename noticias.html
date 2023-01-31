@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/Logo.png" type="image/x-icon">
+    <title>Connect</title>
+    <link rel="preload" href="./css/noticias.css" as="styles">
+    <link rel="stylesheet" href="./css/noticias.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+
+    <header class="header">
+
+         <!-- Menu entrega 2 con bootstrap -->
+        
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img class="header__logo__img" src="./assets/img/Logo.png" alt="Logo" width="100px" height="100px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse align-self-end justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center justify-content-center p-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./sobre_nosotros.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./artistas.html">Artistas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contactos.html">Contactos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!-- Menu entrega 1 -->
+
+        <!-- <a href="../index.html"><img class="header__logo" src="../imagenes/Logo.png" alt="Logo" width="100px" height="100px"></a>
+    
+        <nav class="header__menu">
+            <ul>
+                <li>
+                    <a href="./sobre_nosotros.html">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="./artistas.html">Artistas</a>
+                </li>
+                <li>
+                    <a href="./noticias.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="./contactos.html">Contactos</a>
+                </li>
+            </ul>
+        </nav> -->
+   
+    </header>
+    
+    <div class="conteiner">
+        <div class="row">
+
+            <div class="col-lg-12 d-flex flex-column align-items-center">
+                <h1>Noticias</h1>
+            </div>
+
+            <div class="col-lg-5 d-flex align-items-center justify-content-center p-5">
+                <img src="./assets/img/noticia1.jpg" alt="noticia1" width="500px" height="300px">
+            </div>
+            <div class="col-lg-7 d-flex flex-column align-items-center justify-content-center p-5">
+                <h2>Titulo</h2>
+                <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></h5>
+                
+                <button onclick="myFunction1()" id="myBtn1">Leer más...</button>
+                <script src="./js/noticias.js"></script>
+            </div>
+
+            <div class="col-lg-5 d-flex align-items-center justify-content-center p-5">
+                <img src="./assets/img/noticia2.jpg" alt="noticia2" width="500px" height="300px">
+            </div>
+
+            <div class="col-lg-7 d-flex flex-column align-items-center justify-content-center p-5">
+                <h2>Titulo</h2>
+                <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots2">...</span><span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></h5>
+                
+                <button onclick="myFunction2()" id="myBtn2">Leer más...</button>
+                <script src="./js/noticias.js"></script>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <!-- <section class="noticias">
+        <div class="noticias_noticia1">
+            <div class="noticias_noticia1_imagen">
+                <img src="./assets/img/noticia1.jpg" alt="noticia1" width="300px" height="400px">
+            </div>
+            <div class="noticias_noticia1_texto">
+                <h2>Titulo</h2>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, recusandae necessitatibus. Quisquam, reiciendis aperiam sunt impedit reprehenderit officiis eveniet tempora dolorem minus esse. Saepe quaerat facilis suscipit quos eum dolorem.</h5>
+            </div>
+        </div>
+        <div class="noticias_noticia2">
+            <div class="noticias_noticia2_imagen">
+                <img src="./assets/img/noticia2.jpg" alt="noticia2" width="300px" height="400px">
+            </div>
+            <div class="noticias_noticia2_texto">
+                <h2>Titulo</h2>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, recusandae necessitatibus. Quisquam, reiciendis aperiam sunt impedit reprehenderit officiis eveniet tempora dolorem minus esse. Saepe quaerat facilis suscipit quos eum dolorem.</h5>
+            </div>
+        </div>
+
+    </section> -->
+
+    <footer>
+        <div class="footer__hechoPor">
+            <p>Hecho por Facundo Villar</p>
+        </div>
+
+        <div class="footer__copyright">
+            <p>2023 <img src="./assets/img/copyright.png" class="footer__copyright__c" alt="copyright" width="12px" height="12px"> Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+</body>
+</html>

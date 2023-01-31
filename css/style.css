@@ -1,0 +1,399 @@
+/* Desktop */
+
+body {
+    background-color: black !important;
+    font-family: Syne, sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+}
+
+/* HEADER */
+
+/* HEADER Primera entrega */
+
+/* .header {
+    font-size: medium;
+    margin: 10px 5px;
+    background-color: rgb(0, 0, 0);   
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 75% 25%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header__logo {
+    margin: 15px auto;
+    padding: 0px 10px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+} */
+
+/* MENU */
+
+/* Primera entrega */
+
+/* .header__menu {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 90%;
+    margin: 10px auto;
+    list-style-type: none; 
+    text-align: center;
+    font-size: 0;
+}
+
+.header__menu > ul li {
+    display: inline-block;
+    width: 25%;
+    position:relative ;
+}
+
+.header__menu li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    width: 150px;
+    color: white;
+}
+
+.header__menu li:hover a {
+    background: white;
+    border-radius: 20px;
+    color: var(--negro);
+} */
+
+/* MENU */
+
+/* Segunda entrega */
+
+.header {
+    font-size: medium;
+    margin: 10px 5px;
+    background-color: rgb(0, 0, 0);   
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.nav-link {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.navbar-brand {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+
+#navbarNav > ul li {
+    display: inline-block;
+    width: 25%;
+    position:relative;
+}
+
+#navbarNav li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    width: 170px;
+    border-radius: 20px;
+    color: white;
+}
+
+#navbarNav li:hover a {
+    background: white;
+    border-radius: 20px;
+    color: var(--negro);
+}
+
+/* Main */
+
+/* Primera entrega */
+
+/* .main {
+    background-image: url(./imagenes/main.jpg);
+    display: flex;
+    flex-direction: column;
+}
+.main__main1 {
+    width: 100%;
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.main__main1__titulo__titulo {
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 850;
+    width: 80%;
+}
+
+.main__main1__titulo_subtitulo {
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 450;
+}
+
+.main__main1__video {
+    display: inline-block;
+    margin: 20px;
+}
+
+.main__main2 {
+    width: 100%;
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.main__main2__redes {
+    display: inline-block;
+    margin: 0px 0px 20px 200px;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.main__main2__redes__facebook {
+    display: inline-block;
+}
+
+.main__main2__redes__instagram {
+    display: inline-block;
+}
+
+.main__main2__redes__soundcloud {
+    display: inline-block;
+}
+
+.main__main2__partners {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.main__main2__partners__beatport {
+    display: inline-block;
+    width: 80%;
+}
+
+.main__main2__partners__spotify {
+    display: inline-block;
+    width: 80%;
+} */
+
+/* Main */
+
+/* Segunda entrega */
+
+/* .main {
+    background-image: url(../assets/img/index__fondo.jpg);
+    display: grid;
+    grid-template-areas:
+    "titulo video"
+    "redes partners";
+    grid-template-rows: 355px auto; 
+    grid-template-columns: auto 600px;  
+}
+
+.main__texto {
+    grid-area: titulo;
+}
+
+.main__video {
+    grid-area: video;
+}
+
+.main_redes {
+    grid-area: redes;
+}
+
+.main__partners {
+    grid-area: partners;
+}
+
+.main__texto {
+    display:grid;
+    grid-template-areas:
+    "texto__titulo"
+    "texto__subtitulo";
+    grid-template-rows: 1fr 1fr;
+    align-content: space-between;
+}
+
+.main__texto__titulo {
+    grid-area: texto__titulo;
+}
+
+.main__texto__subtitulo {
+    grid-area: texto__subtitulo;
+}
+
+.main__texto__titulo {
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 850;
+}
+
+.main__texto__subtitulo {
+    margin: 20px;
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 450;
+}
+
+.main__video {
+    margin: 20px;
+}
+
+.main__redes {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+    grid-template-columns: subgrid;
+}
+
+.main__redes__facebook {
+    grid-column: 4;
+}
+
+.main__redes__instagram {
+    grid-column: 5;
+}
+
+.main__redes__soundcloud {
+    grid-column: 6;
+}
+
+.main__partners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 220px 220px;   
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    grid-template-columns: subgrid;
+}
+
+.main__partners__beatport {
+    grid-column: 3;
+}
+
+.main__partners__spotify {
+   grid-column: 4;
+} */
+
+/* Segunda entrega */
+
+#main {
+    background-image: url(../assets/img/main2.jpg);
+}
+
+#titulo {
+    margin-top: 50px !important;
+}
+
+#video {
+    margin-top: 50px !important;
+}
+
+h1, h4 {
+    color: white !important;
+}
+
+.facebook:hover {
+    display: inline-block;
+    margin: 0 1rem;
+
+    animation: flip; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+.instagram:hover {
+    display: inline-block;
+    margin: 0 1rem;
+
+    animation: flip; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+.soundcloud:hover {
+    display: inline-block;
+    margin: 0 1rem;
+
+    animation: flip; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+.video__efect:hover {
+    display: inline-block;
+    margin: 0 1rem;
+
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    color: white;
+}
+
+.footer__hechoPor {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer__copyright {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 0.5rem;
+    }
+
+.footer__copyright__c {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
